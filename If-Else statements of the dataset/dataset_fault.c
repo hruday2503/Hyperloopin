@@ -70,8 +70,8 @@ int main() {
     scanf("%d", &deviationValue);
 
     // Validate the input range
-    if (sensorValue < 0 || sensorValue > 500 || deviationValue < 0 || deviationValue > 500) {
-        printf("Invalid input! Values must be between 0 and 500.\n");
+    if (sensorValue < 0 || sensorValue > 100 || deviationValue < 0 || deviationValue > 100) {
+        printf("Invalid input! Values must be between 0 and 100.\n");
         return 1;
     }
 
