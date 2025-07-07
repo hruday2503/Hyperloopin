@@ -54,8 +54,8 @@ int main() {
     scanf("%d", &speedValue);
 
     // Validate inputs
-    if (distanceValue < 0 || distanceValue > 500 || speedValue < 0 || speedValue > 500) {
-        printf("Invalid input! Values must be between 0 and 500.\n");
+    if (distanceValue < 0 || distanceValue > 100 || speedValue < 0 || speedValue > 100) {
+        printf("Invalid input! Values must be between 0 and 100.\n");
         return 1;
     }
 
